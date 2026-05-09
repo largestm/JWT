@@ -1,0 +1,14 @@
+{
+    "name": "your-vendor/php-jwt",
+    "description": "轻量级 PHP JWT 实现，支持 HS256/HS384/HS512，无第三方依赖",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
